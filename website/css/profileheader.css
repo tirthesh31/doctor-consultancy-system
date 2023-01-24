@@ -1,0 +1,273 @@
+.container{
+    width: 79rem;
+    height: 17rem;
+    position: absolute;
+    background-color: #16a085;
+    margin: 0;
+    border-radius: 20px;
+}
+.pic{
+    position: relative;
+    width: 30%;
+    height: 93%;
+    background-color: #fff;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    margin-top: .75%;
+}
+.detail{
+    width: 64%;
+    height: 93%;
+    border: 5px solid #fff;
+    margin-left: 34.5%;
+    border-radius: 20px;
+    margin-top: -20.5%;
+}
+.detail .basic{
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+.detail .basic1{
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+.basic label,.basic1 label{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+#name{
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid snow;
+    font-size: 22px;
+    left: 43%;
+}
+#qua{
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid snow;
+    font-size: 22px;
+    left: 1%;
+}
+#hos{
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid snow;
+    font-size: 22px;
+    left: 5%;
+}
+
+.bd-cont{
+    position: absolute;
+    width: 32.5rem;
+    margin-top: 7%;
+    top: 45%;
+}
+.bd-cont #bd{
+    position: relative;
+    border-bottom: 2px solid snow;
+    font-size: 22px;
+}
+.bd-cont #contact{
+    position: relative;
+    border-bottom: 2px solid snow;
+    font-size: 22px;
+}
+.btns{
+    position: absolute;
+    top: 55%;
+    width: 99%;
+    display: -webkit-inline-box;
+}
+.btns button{
+    margin-left: 8%;
+    margin-right: -2.67%;
+    margin-top: 1%;
+    width: 15.5rem;
+    height: 6rem;
+    background-color: #fff;
+    border: 1px solid #16a085;
+    color: #16a085;
+    font-weight: 600;
+    border-radius: 20px;
+    position: relative;
+    left: 5%;
+}
+.btns a{
+    color: #16a085;
+    font-style: oblique;
+    text-decoration: none;    
+}
+.btns button:hover{
+    background-color: #16a085;
+    transition: .70s ease-in-out;
+}
+.btns button a:hover{
+    color: #fff;
+}
+.data{
+    position: absolute;
+    top: 100%;
+    width: 77.85rem;
+    height: 33rem;
+    border: 5px solid #16a085;
+    border-radius: 20px
+}
+.data .query_details{
+    margin-bottom: 5px;
+}
+.data .query_details input{
+    margin-left: 20px;
+    margin-top: 2px;
+    width: 20%;
+    height: 1.5rem;
+    background-color: #16a085;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #16a100;
+}
+.indata{
+    margin: 2rem 0 1rem 1.5rem;
+}
+.indata button{
+    margin: 1.5rem 0 0 -10.5rem;
+    position: absolute;
+    background: #16a085;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+.indata input{
+    margin-left: 1rem;
+    border: none;
+    border-bottom: 3px solid #16a085;
+    cursor: text;
+}
+.tbl{
+    margin-top: 2rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;    
+  }
+  th{
+    border: 1px solid #16a085;
+    text-align: left;
+    padding: 8px;
+    color: #16a085;
+  }
+  td{
+    border: 1px solid #16a085;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #16a085;
+  }
+  tr:nth-child(even) a{
+    color: #fff;
+  }
+  tr:nth-child(odd) td,a{
+    color: #16a085;
+  }
+
+
+/*Following css is for create appointment schedule form*/
+.Add{
+    height: 35px;
+    border-bottom: 3.5px solid #16a085;
+}
+.Add button{
+    border-radius: 60%;
+    margin-left: calc(100% - 3.5%);
+    height: 30px;
+    width: 30px;
+    border: 2px solid #16a085;
+    color: #16a085;
+    font-weight: 600;
+    margin-top: 2.5px;
+    font-size: 20px;
+}
+.Add button:hover{
+    border: none;
+    background-color: #16a085;
+    color: #fff;
+}
+.scheduleform{
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+    border: 2.5px solid #16a085;
+    margin-top: 80px;
+    margin-left: 290px;
+    border-radius: 20px;
+    display: none;
+}
+.scheduleform .info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.scheduleform .info .input_field{
+    display: grid;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.scheduleform .info .input_field input{
+    margin-top: 5px;
+    background-color: #16a085;
+    color: #fff;
+    font-size: 16px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.scheduleform .info .input_field label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #074b3e;
+}
+.scheduleform .info .sect1{
+    width: 36.75%;
+}
+.scheduleform .btn{
+    display: flex;
+    justify-content: space-evenly;
+    border-top:2.5px solid #16a085;
+}
+.scheduleform .btn input{
+    margin-top: 3px;
+    width: 30%;
+    height: 5vh;
+    background-color: #16a085;
+    color: #fff;
+    border-radius: 5px;
+}
+.scheduleform .btn button{
+    width: 30%;
+    height: 5vh;
+    background-color: #16a085;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 3px;
+}

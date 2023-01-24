@@ -1,0 +1,85 @@
+.Main{
+    border: 2.5px solid lightgrey;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+}
+.basicDiv{
+    border-left: 2.5px solid lightgrey;
+    border-right: 2.5px solid lightgrey;
+    border-bottom: 2.5px solid lightgrey;
+    height: 80%;
+    width: 45%;
+    position: relative;
+    top: 5%;
+    left: 2.5%;
+}
+.basicDiv label{
+    margin-left: 45%;
+    font-weight: 500;
+    font-size: large;
+}
+.basicDiv input{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 30px;
+    width: 80%;
+    font-size: 15px;
+    padding-top: 2.5px;
+}
+.occupation{
+    border-left: 2.5px solid lightgrey;
+    border-right: 2.5px solid lightgrey;
+    border-bottom: 2.5px solid lightgrey;
+    height: 45%;
+    width: 45%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+.occupation label{
+    margin-left: 45%;
+    font-weight: 500;
+    font-size: large;
+}
+.occupation select,input{
+    display: flex;
+    margin-top: 7.5px;
+    margin-left: 25px;
+    height: 30px;
+    width: 80%;
+    font-size: 15px;
+    padding-top: 2.5px;
+}
+.authentication{
+    border-left: 2.5px solid lightgrey;
+    border-right: 2.5px solid lightgrey;
+    border-bottom: 2.5px solid lightgrey;
+    height: 30%;
+    width: 45%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+.authentication label{
+    margin-left: 45%;
+    font-weight: 500;
+    font-size: large;
+}
+.btn{
+    position: absolute;
+    top: 87.5%;
+    left: 40%;
+    width: 150px;
+}
+.btn input{
+    padding-left: 25%;
+}
+.btn input:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
